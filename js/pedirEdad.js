@@ -5,4 +5,4 @@ if(edad>=18){
     alert('sos mayor de edad')
 }else{
     alert('sos menor de edad rey')
-}
+};
