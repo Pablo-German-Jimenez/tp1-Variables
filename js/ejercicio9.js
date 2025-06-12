@@ -1,7 +1,13 @@
 /*9.- Escribe un programa que pida una frase y escriba las vocales que aparecen
 Nota: Tener en cuenta la función length y substring o charAt (developer mozilla)*/
 
-let frase = prompt("Dame una palabrita de 5 caracteres");
+let frase = prompt("Dame una palabrita de 5 caracteres").toLocaleLowerCase();
+console.log(frase.toLowerCase());
+console.log(frase.toUpperCase());
+console.log(frase.length);
+console.log(frase.substring(0,3));
+console.log(frase.charAt(0));
+console.log(frase.charAt(5));
 if(
   frase.charAt(0) === "a" ||
   frase.charAt(0) === "e" ||
